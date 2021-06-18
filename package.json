@@ -1,0 +1,25 @@
+{
+  "name": "mydomo",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build": "tsc --project ./",
+    "start": "tsc && node --unhandled-rejections=strict ./build/app.js"
+  },
+  "dependencies": {
+    "@tuyapi/openapi": "^1.3.0",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "morgan": "~1.9.1",
+    "tuyapi": "github:codetheweb/tuyapi"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.12",
+    "@types/morgan": "^1.9.2",
+    "@types/node": "^15.12.3",
+    "nodemon": "^2.0.7",
+    "ts-node": "^10.0.0",
+    "typescript": "^4.3.4"
+  }
+}
